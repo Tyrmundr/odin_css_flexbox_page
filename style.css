@@ -10,11 +10,28 @@
     padding: 0 300px;
 }
 
-.header {
+.header, .footer {
     background-color: #1f2937;
     color: #e5e7eb;
     font-size: 18px;;
 }
+
+.header {
+    margin-bottom: 48px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
 
 .navbar {
     display: flex;
@@ -72,5 +89,8 @@
 .btn {
     background-color: #3882f6;
     color: #e5e7eb;
-    border: none;
+    border: 1px solid #3882f6;
+    border-radius: 12px;
+    font-size: 18px;
+    padding: 5px 47px;
 }
