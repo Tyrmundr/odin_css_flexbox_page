@@ -17,7 +17,7 @@
 }
 
 .header {
-    margin-bottom: 48px;
+    margin-bottom: 64px;
 }
 
 .footer {
@@ -93,4 +93,40 @@
     border-radius: 12px;
     font-size: 18px;
     padding: 5px 47px;
+}
+
+/* Pics Section */
+
+.pics-header {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-bottom: 0;
+}
+
+.blocks {
+    display: flex;
+    justify-content: center;
+    padding: 64px 0;
+}
+
+.block {
+    padding: 0 32px;
+}
+
+.block-img {
+    width: 200px;
+    height: 200px;
+    
+    border-radius: 16px;
+}
+
+.block-text {
+    text-align: center;
+    max-width: 200px;
+}
+
+.block-text em {
+    font-size: 18px;
 }
