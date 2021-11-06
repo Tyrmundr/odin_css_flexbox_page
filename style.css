@@ -97,6 +97,7 @@
 
 /* Pics Section */
 
+
 .pics-header {
     text-align: center;
     font-size: 36px;
@@ -108,7 +109,7 @@
 .blocks {
     display: flex;
     justify-content: center;
-    padding: 64px 0;
+    padding: 64px 0 164px;
 }
 
 .block {
@@ -118,7 +119,6 @@
 .block-img {
     width: 200px;
     height: 200px;
-    
     border-radius: 16px;
 }
 
@@ -130,3 +130,6 @@
 .block-text em {
     font-size: 18px;
 }
+
+/* Testimonial Section */
+
